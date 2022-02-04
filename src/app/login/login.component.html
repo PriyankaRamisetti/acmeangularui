@@ -1,0 +1,38 @@
+
+ <div class="background d-flex flex-column min-vh-100">
+<div class="jumbotron text-center">
+  <h2> ACME Operators </h2>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+   </div>
+    <div class="col-sm-4 login-form">
+      <form [formGroup]="loginForm"> 
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" class="form-control" formControlName="username" placeholder="Enter Username"><br>
+          <span class="text-danger" *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required','username')">*Username is Required</span>
+
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="text" class="form-control" formControlName="password"  placeholder="Enter Password"><br>
+          <span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')">*Password is Required</span>
+        </div>
+       <div class="form-group">
+         <br>
+        <button class="nav-item submit" [disabled]="!loginForm.valid" (click)="Submit()"> Login </button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+<footer class="mt-auto">
+  <div class="footer-copyright text-center py-3 foot">©Copyright:ACME.com
+     </div>
+  </footer>
+</div>
+
+
+

@@ -1,0 +1,35 @@
+
+ <div class="background d-flex flex-column min-vh-100">
+  <div class="modal-header">
+   <i class="bi bi-arrow-left-circle-fill back" [routerLink]="['/plans']"></i>
+    <h2 class="modal-title">ACME Plan Details</h2>
+    <button class="btn btn-primary" (click)="logout()"> Logout </button>
+   </div> 
+   <form> 
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 plan text-center">
+        <h3>{{data.name}}</h3>
+        <img id="image" alt="thumbnail" src="../../assets/wifi.jpg"> <br><br>
+        </div>
+      <div class="col-sm-6 list">
+          <ul class="text-left" style="display:inline-block;vertical-align:middle;">
+            <li>Cost - {{data.Cost}}</li>
+             <li>Validaty - {{data.Validaty}}</li>
+             <li>UploadSpeed - {{data.UploadSpeed}}</li>
+             <li>DownloadSpeed - {{data.DownloadSpeed}}</li>
+              </ul>
+         <br>
+          <button type=button class="btn btn-primary" (click)="Activate()">Activate</button>
+      </div>
+    </div>
+  </div> 
+</form>
+  <footer class="mt-auto">
+    <div class="footer-copyright text-center py-3 foot">©Copyright:ACME.com
+    </div>
+    </footer>
+
+</div>
+
+

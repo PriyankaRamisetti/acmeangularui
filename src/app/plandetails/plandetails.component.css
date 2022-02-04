@@ -1,0 +1,62 @@
+.background
+{
+  background: url(../../assets/telecom.jpg);
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  background-size :cover;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(90%);
+}
+.card {
+  margin:.50rem;
+  width: 15rem;
+  box-sizing: content-box;
+ }
+ h2{
+  
+  color: aliceblue;
+  font-style:oblique;
+}
+
+.container {
+  margin-top: 5rem;
+   border-style:ridge;
+}
+.submit
+{
+  color: #fff;
+  background-color: #0062cc;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+}
+.list
+{
+  margin-top: 3rem;
+  padding: 5%;
+
+}
+#image
+{
+  width: 150px;
+  height: 150px;
+}
+
+.plan
+{
+  margin-top: 5rem;
+}
+
+.modal-header
+{
+  background-color: #0062cc;
+  height:100px;
+}
+.back
+{
+  cursor: pointer;
+  size: 50px;
+  font-size:x-large;
+  color: #fff;
+}

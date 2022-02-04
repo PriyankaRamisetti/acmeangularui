@@ -1,0 +1,27 @@
+<div class="background d-flex flex-column min-vh-100">
+   <div class="modal-header">
+     <h2 class="modal-title">ACME Available Plans</h2>
+     <button class="btn btn-primary" (click)="logout()"> Logout </button>
+    </div> 
+ <div class="container">
+  <div class="row" >
+   <div class="card" *ngFor="let d of data">
+      <div class="card-body text-center">
+        <h5 class="card-title"> {{ d.planname }}</h5>
+        <img id="image" alt="thumbnail" src="../../assets/wifi.jpg">
+       <div>
+        <br>
+        <button class="nav-item submit"  (click)="Submit(d.planname)"> Select </button>
+      </div>
+      </div>
+    </div>
+   </div>
+  </div>
+<footer class="mt-auto">
+    <div class="footer-copyright text-center py-3 foot">©Copyright:ACME.com
+      </div>
+    </footer>
+</div>
+
+
+
