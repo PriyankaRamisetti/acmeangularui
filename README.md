@@ -5,6 +5,7 @@ Prerequisites :
     Angular
 
 To execute the code 
+
 ```npm install
 ```ng build
 ```ng serve -o
