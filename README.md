@@ -1,8 +1,12 @@
 The following installations needs to be done.
+
 Prerequisites : 
     node
     npm
     Angular
+
+Please run nestapi application prior to the execution
+https://github.com/PriyankaRamisetti/acmenestapi.git
 
 To execute the code 
 
