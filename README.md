@@ -6,8 +6,8 @@ Prerequisites :
 
 To execute the code 
 
-```npm install
-```ng build
-```ng serve -o
+    ```npm install
+    ```ng build
+    ```ng serve -o
 
 Please open in broswer http://localhost:4200/login
