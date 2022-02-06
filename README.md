@@ -14,4 +14,6 @@ To execute the code
     ```ng build
     ```ng serve -o
 
-Please open in broswer http://localhost:4200/login
+Please open in broswer http://localhost:4200/login 
+username - admin
+password - admin
